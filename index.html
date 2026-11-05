@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Syed Usman Fazal - Odoo Developer & Web Developer based in Rawalpindi, Pakistan. Expert in Odoo customization, Python, WordPress, and ERP solutions.">
+    <meta name="author" content="Syed Usman Fazal">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Syed Usman Fazal | Odoo & Web Developer">
+    <meta property="og:description" content="Odoo Developer with 2+ years of experience in ERP solutions, module development, and web technologies.">
+    <meta property="og:type" content="website">
+    
+    
+    <title>Syed Usman Fazal | Odoo Developer & Web Developer</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- Main Style -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body >
+
+<!-- Pendulum Pull-Cord -->
+<canvas id="pendulum-canvas"></canvas>
+
+<!-- Navigation -->
+<header class="site-header" id="site-header">
+    <nav class="nav-container">
+        <a href="#hero" class="nav-logo">Usman<span>.</span></a>
+        
+        <ul class="nav-menu" id="nav-menu">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact" class="nav-cta">Hire Me</a></li>
+        </ul>
+        
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+</header>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu-overlay" id="mobile-menu">
+    <button class="mobile-close" id="mobile-close" aria-label="Close">✕</button>
+    <ul class="mobile-nav-menu">
+        <li><a href="#about" class="mobile-nav-link">About</a></li>
+        <li><a href="#skills" class="mobile-nav-link">Skills</a></li>
+        <li><a href="#experience" class="mobile-nav-link">Experience</a></li>
+        <li><a href="#projects" class="mobile-nav-link">Projects</a></li>
+        <li><a href="#education" class="mobile-nav-link">Education</a></li>
+        <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+    </ul>
+</div>
+<!-- =====================================================
+     HERO SECTION
+     ===================================================== -->
+<main>
+<section class="hero-section" id="hero">
+    <div class="hero-bg">
+        <div class="hero-bg-gradient"></div>
+        <div class="hero-grid"></div>
+    </div>
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    
+    <div class="hero-container">
+        <!-- Left Content -->
+        <div class="hero-content fade-up">
+            <div class="hero-status">
+                <span class="hero-status-dot"></span>
+                <span class="hero-status-text">Available for Work</span>
+            </div>
+            
+            <h1 class="hero-title">
+                <span class="name">Syed Usman Fazal</span>
+                <span class="role">Odoo & Web Developer</span>
+            </h1>
+            
+            <p class="hero-description">
+                Odoo Developer with <strong>2+ years</strong> of experience building scalable ERP solutions, 
+                custom modules, and web applications. Expert in Python, Odoo ORM, WordPress, and business 
+                process automation.
+            </p>
+            
+            <div class="hero-actions">
+                <a href="#projects" class="btn btn-primary">
+                    <i class="fas fa-rocket"></i>
+                    View My Work
+                </a>
+                <a href="#contact" class="btn btn-secondary">
+                    <i class="fas fa-envelope"></i>
+                    Get In Touch
+                </a>
+            </div>
+            
+            <div class="hero-social">
+                <a href="https://www.linkedin.com/in/syed-usman-fazal-ab3671419/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/usmanfazal2002" target="_blank" rel="noopener noreferrer" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="mailto:usmanfazal4600@gmail.com" title="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="tel:03362632002" title="Phone">
+                    <i class="fas fa-phone"></i>
+                </a>
+            </div>
+        </div>
+        
+        <!-- Right: Profile Card -->
+        <div class="hero-visual fade-up stagger-2">
+            <div class="hero-card">
+                <div class="hero-avatar">
+                    <img src="img/profile.jpg" alt="Syed Usman Fazal">
+                </div>
+                <div class="hero-card-name">Syed Usman Fazal</div>
+                <div class="hero-card-role">🐍 Odoo Developer · 🌐 Web Developer</div>
+                
+                <div class="hero-card-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">2+</span>
+                        <span class="stat-label">Years Exp.</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">5+</span>
+                        <span class="stat-label">Projects</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">19</span>
+                        <span class="stat-label">Odoo Ver.</span>
+                    </div>
+                </div>
+                
+                <div class="hero-card-tags">
+                    <span class="tag">Odoo 19</span>
+                    <span class="tag">Python</span>
+                    <span class="tag">WordPress</span>
+                    <span class="tag">PostgreSQL</span>
+                    <span class="tag">OWL/JS</span>
+                    <span class="tag">XML</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- =====================================================
+     ABOUT SECTION
+     ===================================================== -->
+<section class="section" id="about">
+    <div class="container">
+        <div class="about-grid">
+            <!-- Left: Image placeholder -->
+            <div class="about-image-wrapper fade-up">
+                <div class="about-image-frame">
+                    <img src="img/about.jpg" alt="Syed Usman Fazal">
+                </div>
+                <div class="about-badge">
+                    <span class="about-badge-num">19</span>
+                    <span class="about-badge-text">Odoo Version<br>Expertise</span>
+                </div>
+            </div>
+            
+            <!-- Right: Content -->
+            <div class="about-content fade-up stagger-2">
+                <div class="section-label">About Me</div>
+                <h2 class="section-title">Passionate Developer & Problem Solver</h2>
+                
+                <div class="about-bio">
+                    <p>
+                        I'm <strong>Syed Usman Fazal</strong>, an Odoo Developer and Web Developer based in 
+                        Rawalpindi, Pakistan, with <strong>2+ years</strong> of hands-on experience in web development 
+                        and ERP solutions. I specialize in Odoo customization, module development, and business process 
+                        automation.
+                    </p>
+                    <p>
+                        Currently working as a <strong>Junior Odoo Developer at NUTECH</strong>, I build and customize 
+                        Odoo 19 applications using Python, XML, JavaScript, OWL, PostgreSQL, and Odoo ORM. I also bring 
+                        a strong background in WordPress, WooCommerce, PHP, HTML, CSS, and JavaScript.
+                    </p>
+                    <p>
+                        I'm passionate about building scalable, user-friendly ERP solutions and digital products that 
+                        solve real business problems.
+                    </p>
+                </div>
+                
+                <div class="about-info-grid">
+                    <div class="info-item">
+                        <div class="info-label">📧 Email</div>
+                        <div class="info-value" style="font-size:0.82rem;">usmanfazal4600@gmail.com</div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-label">📱 Phone</div>
+                        <div class="info-value">03362632002</div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-label">📍 Location</div>
+                        <div class="info-value">Rawalpindi, Pakistan</div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-label">🎓 Degree</div>
+                        <div class="info-value">BS Computer Science</div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-label">💼 Status</div>
+                        <div class="info-value" style="color: var(--success);">Available for Work</div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-label">🌐 GitHub</div>
+                        <div class="info-value" style="font-size:0.82rem;">usmanfazal2002</div>
+                    </div>
+                </div>
+                
+                <div style="display:flex; gap:1rem; flex-wrap:wrap;">
+                    <a href="mailto:usmanfazal4600@gmail.com" class="btn btn-primary">
+                        <i class="fas fa-envelope"></i> Email Me
+                    </a>
+                    <a href="https://www.linkedin.com/in/syed-usman-fazal-ab3671419/" target="_blank" class="btn btn-secondary">
+                        <i class="fab fa-linkedin-in"></i> LinkedIn
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- =====================================================
+     SKILLS SECTION
+     ===================================================== -->
+<section class="section" id="skills">
+    <div class="container">
+        <div style="text-align:center; margin-bottom:3rem;" class="fade-up">
+            <div class="section-label" style="justify-content:center;">Skills & Expertise</div>
+            <h2 class="section-title">My Technical Toolkit</h2>
+            <p class="section-subtitle">Technologies and tools I work with on a daily basis</p>
+        </div>
+        
+        <div class="skills-grid">
+            <!-- Odoo -->
+            <div class="skill-category fade-up stagger-1">
+                <div class="skill-cat-header">
+                    <div class="skill-cat-icon">🔧</div>
+                    <div class="skill-cat-title">Odoo Development</div>
+                </div>
+                <div class="skill-tags">
+                    <span class="skill-tag">Odoo 19</span>
+                    <span class="skill-tag">Odoo ORM</span>
+                    <span class="skill-tag">Module Dev</span>
+                    <span class="skill-tag">QWeb</span>
+                    <span class="skill-tag">XML Views</span>
+                    <span class="skill-tag">OWL/JavaScript</span>
+                    <span class="skill-tag">Access Rights</span>
+                    <span class="skill-tag">Workflows</span>
+                    <span class="skill-tag">Computed Fields</span>
+                    <span class="skill-tag">ERP Solutions</span>
+                </div>
+            </div>
+            
+            <!-- Backend -->
+            <div class="skill-category fade-up stagger-2">
+                <div class="skill-cat-header">
+                    <div class="skill-cat-icon">🐍</div>
+                    <div class="skill-cat-title">Backend Development</div>
+                </div>
+                <div class="skill-tags">
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">Django / Flask</span>
+                    <span class="skill-tag">PHP</span>
+                    <span class="skill-tag">PostgreSQL</span>
+                    <span class="skill-tag">MySQL</span>
+                    <span class="skill-tag">Database Management</span>
+                    <span class="skill-tag">REST APIs</span>
+                    <span class="skill-tag">AI / ML</span>
+                </div>
+            </div>
+            
+            <!-- Frontend -->
+            <div class="skill-category fade-up stagger-3">
+                <div class="skill-cat-header">
+                    <div class="skill-cat-icon">🎨</div>
+                    <div class="skill-cat-title">Frontend Development</div>
+                </div>
+                <div class="skill-tags">
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">OWL (Odoo)</span>
+                    <span class="skill-tag">Angular</span>
+                    <span class="skill-tag">HTML5</span>
+                    <span class="skill-tag">CSS3</span>
+                    <span class="skill-tag">XML</span>
+                    <span class="skill-tag">Responsive Design</span>
+                </div>
+            </div>
+            
+            <!-- WordPress -->
+            <div class="skill-category fade-up stagger-1">
+                <div class="skill-cat-header">
+                    <div class="skill-cat-icon">🌐</div>
+                    <div class="skill-cat-title">WordPress & CMS</div>
+                </div>
+                <div class="skill-tags">
+                    <span class="skill-tag">WordPress</span>
+                    <span class="skill-tag">WooCommerce</span>
+                    <span class="skill-tag">Elementor</span>
+                    <span class="skill-tag">Theme Dev</span>
+                    <span class="skill-tag">Plugin Dev</span>
+                </div>
+            </div>
+            
+            <!-- Tools -->
+            <div class="skill-category fade-up stagger-2">
+                <div class="skill-cat-header">
+                    <div class="skill-cat-icon">⚙️</div>
+                    <div class="skill-cat-title">Tools & Environment</div>
+                </div>
+                <div class="skill-tags">
+                    <span class="skill-tag">VS Code</span>
+                    <span class="skill-tag">PowerShell</span>
+                    <span class="skill-tag">Git / GitHub</span>
+                    <span class="skill-tag">Local Dev Environment</span>
+                    <span class="skill-tag">pgAdmin</span>
+                </div>
+            </div>
+            
+            <!-- Soft Skills -->
+            <div class="skill-category fade-up stagger-3">
+                <div class="skill-cat-header">
+                    <div class="skill-cat-icon">🧠</div>
+                    <div class="skill-cat-title">Soft Skills</div>
+                </div>
+                <div class="skill-tags">
+                    <span class="skill-tag">Problem Solving</span>
+                    <span class="skill-tag">Teamwork</span>
+                    <span class="skill-tag">Communication</span>
+                    <span class="skill-tag">Time Management</span>
+                    <span class="skill-tag">Leadership</span>
+                    <span class="skill-tag">Critical Thinking</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- =====================================================
+     EXPERIENCE SECTION
+     ===================================================== -->
+<section class="section" id="experience">
+    <div class="container">
+        <div style="margin-bottom:3rem;" class="fade-up">
+            <div class="section-label">Work Experience</div>
+            <h2 class="section-title">Professional Journey</h2>
+            <p class="section-subtitle">My career path and professional milestones</p>
+        </div>
+        
+        <div class="timeline fade-up stagger-1">
+            <!-- Current Job -->
+            <div class="timeline-item">
+                <div class="timeline-dot active"></div>
+                <div class="timeline-content">
+                    <div class="timeline-header">
+                        <div>
+                            <div class="timeline-role">Junior Odoo Developer</div>
+                            <div class="timeline-company">NUTECH — National University of Technology</div>
+                        </div>
+                        <div class="timeline-meta">
+                            <div class="timeline-period">
+                                <i class="far fa-calendar-alt"></i>
+                                Jun 2026 — <span class="period-active">Present</span>
+                            </div>
+                            <div class="timeline-location">📍 Islamabad, Pakistan</div>
+                        </div>
+                    </div>
+                    <div class="timeline-description">
+                        <p>Developed and customized an <strong>Odoo 19 Student Entry Test Management System</strong>, 
+                        implementing custom models, workflows, form/list/kanban views, role-based access, and automated 
+                        business processes.</p>
+                        <br>
+                        <p>Designed a comprehensive <strong>question bank</strong> with subject/module and difficulty-level 
+                        management, teacher question submission, and an Admin approval/rejection workflow. Developed automated 
+                        question-paper generation with configurable Easy, Medium, and Hard question distribution, along with 
+                        Test Time, Test Center, hall, and seat assignment functionality.</p>
+                        <br>
+                        <p>Enhanced the user interface using <strong>OWL/JavaScript</strong>, including custom CNIC validation 
+                        and improved UX components. Leveraged PostgreSQL, Odoo ORM, security/access controls, and module 
+                        development to build scalable and user-friendly Odoo solutions.</p>
+                    </div>
+                    <div class="timeline-tech">
+                        <span class="tech-tag">Odoo 19</span>
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">OWL/JavaScript</span>
+                        <span class="tech-tag">XML</span>
+                        <span class="tech-tag">PostgreSQL</span>
+                        <span class="tech-tag">Odoo ORM</span>
+                        <span class="tech-tag">QWeb</span>
+                        <span class="tech-tag">Role-Based Access</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- =====================================================
+     PROJECTS SECTION
+     ===================================================== -->
+<section class="section" id="projects">
+    <div class="container">
+        <div style="text-align:center; margin-bottom:3rem;" class="fade-up">
+            <div class="section-label" style="justify-content:center;">Portfolio</div>
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-subtitle">Real-world solutions I've built from concept to deployment</p>
+        </div>
+        
+        <div class="projects-grid">
+            <!-- SmartHire -->
+            <div class="project-card fade-up stagger-1">
+                <div class="project-card-header">
+                    <div class="project-icon">🤖</div>
+                    <span class="project-badge fyp">⭐ FYP</span>
+                </div>
+                <div class="project-card-body">
+                    <div class="project-title">SmartHire — AI-Enhanced Recruitment System</div>
+                    <div class="project-description">
+                        A full-stack AI-enhanced recruitment management system that streamlines the hiring 
+                        process by automating candidate screening, job management, and applicant evaluation. 
+                        Developed as Final Year Project with a team collaboration.
+                    </div>
+                    <ul class="project-features">
+                        <li>Manage job postings, applications, and candidate profiles end-to-end</li>
+                        <li>AI-based candidate screening and evaluation automation</li>
+                        <li>Smart candidate-job matching using ML techniques</li>
+                        <li>Role-based access for recruiters and candidates</li>
+                        <li>Recruitment workflow and application status management</li>
+                        <li>Responsive interfaces for both recruiter and candidate portals</li>
+                        <li>Structured database models for scalable data management</li>
+                    </ul>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Django / Flask</span>
+                        <span class="tech-tag">Angular</span>
+                        <span class="tech-tag">AI / ML</span>
+                        <span class="tech-tag">PostgreSQL</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/khojaabbas/SmartHire" target="_blank" class="project-link primary">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                        <a href="https://github.com/usmanfazal2002" target="_blank" class="project-link">
+                            <i class="fas fa-external-link-alt"></i> My Profile
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Estate Management Module -->
+            <div class="project-card fade-up stagger-2">
+                <div class="project-card-header">
+                    <div class="project-icon">🏘️</div>
+                    <span class="project-badge odoo">✓ Odoo Module</span>
+                </div>
+                <div class="project-card-body">
+                    <div class="project-title">Estate Management Module — Odoo 19</div>
+                    <div class="project-description">
+                        A custom Odoo 19 Estate Management module for managing real estate properties, 
+                        property offers, and related business solutions. Fully modular, maintainable, 
+                        and built following Odoo development standards.
+                    </div>
+                    <ul class="project-features">
+                        <li>Custom Odoo models for properties and property offers</li>
+                        <li>Property details, availability, pricing, and status tracking</li>
+                        <li>Offer management system for handling and tracking offers</li>
+                        <li>Custom XML views, menus, actions, form/list views</li>
+                        <li>Computed fields, onchange methods, and business logic</li>
+                        <li>Model relationships, data validation, and access rules</li>
+                        <li>Security and access controls for data protection</li>
+                    </ul>
+                    <div class="project-tech">
+                        <span class="tech-tag">Odoo 19</span>
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Odoo ORM</span>
+                        <span class="tech-tag">XML</span>
+                        <span class="tech-tag">PostgreSQL</span>
+                        <span class="tech-tag">JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/usmanfazal2002" target="_blank" class="project-link primary">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- NUTECH Entry Test System -->
+            <div class="project-card fade-up stagger-3">
+                <div class="project-card-header">
+                    <div class="project-icon">📝</div>
+                    <span class="project-badge odoo">✓ Enterprise</span>
+                </div>
+                <div class="project-card-body">
+                    <div class="project-title">NUTECH Student Entry Test Management System</div>
+                    <div class="project-description">
+                        A comprehensive Odoo 19-based student entry test management system developed 
+                        at NUTECH. Handles everything from question creation to automated test paper 
+                        generation and scheduling.
+                    </div>
+                    <ul class="project-features">
+                        <li>Question bank with subject/module and difficulty-level management</li>
+                        <li>Teacher question submission with Admin approval/rejection workflow</li>
+                        <li>Automated test paper generation (Easy / Medium / Hard distribution)</li>
+                        <li>Test time, center, hall, and seat assignment functionality</li>
+                        <li>Role-based access: Admin, Teacher, Student roles</li>
+                        <li>Custom OWL/JS components with CNIC validation</li>
+                        <li>Kanban, list, and form views for all models</li>
+                    </ul>
+                    <div class="project-tech">
+                        <span class="tech-tag">Odoo 19</span>
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">OWL/JS</span>
+                        <span class="tech-tag">XML</span>
+                        <span class="tech-tag">PostgreSQL</span>
+                        <span class="tech-tag">QWeb</span>
+                        <span class="tech-tag">Odoo ORM</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/usmanfazal2002" target="_blank" class="project-link primary">
+                            <i class="fab fa-github"></i> My Profile
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- =====================================================
+     EDUCATION SECTION
+     ===================================================== -->
+<section class="section" id="education">
+    <div class="container">
+        <div style="margin-bottom:3rem;" class="fade-up">
+            <div class="section-label">Education & Certifications</div>
+            <h2 class="section-title">Academic Background</h2>
+            <p class="section-subtitle">My formal education and professional training</p>
+        </div>
+        
+        <!-- Education -->
+        <div class="education-grid fade-up">
+            <div class="education-card">
+                <div class="edu-icon">🎓</div>
+                <div class="edu-degree">Bachelor of Science in Computer Science</div>
+                <div class="edu-institution">National University of Technology (NUTECH)</div>
+                <div class="edu-period">📅 2021 — 2026</div>
+                <div class="edu-location">📍 Islamabad, Pakistan</div>
+            </div>
+        </div>
+        
+        <!-- Certifications -->
+        <div style="margin-top:3rem;">
+            <h3 style="font-size:1.3rem; font-weight:700; margin-bottom:1.5rem; color: var(--text-primary);">
+                Professional Training & Certifications
+            </h3>
+            <div class="certs-grid fade-up">
+                <div class="cert-card">
+                    <div class="cert-icon">🏆</div>
+                    <div>
+                        <div class="cert-title">Advanced Odoo Technical Bootcamp</div>
+                        <div class="cert-issuer">NUTECH</div>
+                        <div class="cert-period">📅 Feb 2026 — Apr 2026 · Islamabad</div>
+                        <div style="font-size:0.8rem; color:var(--text-secondary); margin-top:0.5rem; line-height:1.6;">
+                            Engineered custom workflows, automated actions, and integrated reporting features 
+                            using QWeb templates. Built business logic using Python and XML backend configurations.
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="cert-card">
+                    <div class="cert-icon">📘</div>
+                    <div>
+                        <div class="cert-title">Odoo Technical Workshop</div>
+                        <div class="cert-issuer">NUTECH</div>
+                        <div class="cert-period">📅 Jan 2026 — Feb 2026 · Islamabad</div>
+                        <div style="font-size:0.8rem; color:var(--text-secondary); margin-top:0.5rem; line-height:1.6;">
+                            Learned module creation, ORM concepts, and backend configuration. Understood 
+                            ERP workflows including inventory, sales, and accounting. Built and customized 
+                            modules using Python and XML.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- =====================================================
+     CONTACT SECTION
+     ===================================================== -->
+<section class="section" id="contact">
+    <div class="container">
+        <div class="contact-wrapper">
+            <!-- Left: Info -->
+            <div class="contact-info fade-up">
+                <div class="section-label">Get In Touch</div>
+                <h2 class="contact-heading">Let's Work Together!</h2>
+                <p class="contact-desc">
+                    I'm open to new opportunities, freelance projects, and collaborations. 
+                    Whether you need an Odoo module, WordPress website, or a custom web application — 
+                    let's build something great together.
+                </p>
+                
+                <div class="contact-items">
+                    <div class="contact-item">
+                        <div class="contact-item-icon">📧</div>
+                        <div>
+                            <div class="contact-item-label">Email</div>
+                            <div class="contact-item-value">
+                                <a href="mailto:usmanfazal4600@gmail.com">usmanfazal4600@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-item-icon">📱</div>
+                        <div>
+                            <div class="contact-item-label">Phone / WhatsApp</div>
+                            <div class="contact-item-value">
+                                <a href="tel:03362632002">0336-2632002</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-item-icon">📍</div>
+                        <div>
+                            <div class="contact-item-label">Location</div>
+                            <div class="contact-item-value">Rawalpindi, Pakistan</div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-item-icon"><i class="fab fa-linkedin-in" style="color:var(--accent);"></i></div>
+                        <div>
+                            <div class="contact-item-label">LinkedIn</div>
+                            <div class="contact-item-value">
+                                <a href="https://www.linkedin.com/in/syed-usman-fazal-ab3671419/" target="_blank">syed-usman-fazal</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-item-icon"><i class="fab fa-github" style="color:var(--accent);"></i></div>
+                        <div>
+                            <div class="contact-item-label">GitHub</div>
+                            <div class="contact-item-value">
+                                <a href="https://github.com/usmanfazal2002" target="_blank">usmanfazal2002</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Right: Form -->
+            <div class="contact-form-wrapper fade-up stagger-2">
+                <div class="contact-form">
+                    <h3 style="font-size:1.2rem; font-weight:700; margin-bottom:1.5rem;">Send Me a Message</h3>
+                    <form action="mailto:usmanfazal4600@gmail.com" method="POST" enctype="text/plain">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label class="form-label">First Name</label>
+                                <input type="text" class="form-input" name="first_name" placeholder="John" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">Last Name</label>
+                                <input type="text" class="form-input" name="last_name" placeholder="Doe">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Email Address</label>
+                            <input type="email" class="form-input" name="email" placeholder="john@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Subject</label>
+                            <input type="text" class="form-input" name="subject" placeholder="Project Inquiry / Collaboration...">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Message</label>
+                            <textarea class="form-textarea" name="message" placeholder="Tell me about your project, requirements, or just say hi!" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width:100%; justify-content:center;">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</main>
+<!-- Scroll To Top -->
+<button class="scroll-top" id="scroll-top" aria-label="Scroll to top">
+    <i class="fas fa-arrow-up"></i>
+</button>
+
+
+    <script src="js/main.js"></script>
+    <script src="js/pendulum.js"></script>
+</body>
+</html>
